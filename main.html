@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiyin Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="header" style="background-color: grey; ">
+        <a>PORTFOLIO</a>
+        <div style="float: right;">
+            <a href="#image">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; background-color:  #e5e7eb;">
+        <p>Hi, <br> I AM FIYIN <br> WEB DEVELOPER</p>
+        <img src="\images\coding.jpg" style=" margin-right: 30px; width: 50%; height: 100%;">
+    </div>
+
+    <div id="about" style="display: flex; justify-content: space-between;">
+        <img src="\images\profile.jpg" style="width: 50%; height: 50%; object-fit: cover;">
+        <div style="float: right; padding-left: 30px;">
+            <h1>About</h1>
+            <p>Frontend and Backend Developer. I graduated from Iowa State with Information Systems. Since then I have worked for an financial and insurance company with freelance projects experience.</p>
+        </div>
+    </div>
+
+    <div id="work" style=" background-color: #1f2937; color:white">
+        <h1 style="text-align: center;">Work</h1>
+        <div style="display: flex; gap: 10px; margin-left: 10px; margin-right: 10px; text-align: center;">
+            <div style="flex: 1; background-color: purple;">Project 1</div>
+            <div style="flex: 1; background-color: pink;">Project 2</div>
+            <div style="flex: 1; background-color: orange;">Project 3</div>
+        </div>
+    </div>
+
+    <div id="contact" style="text-align: center;"> 
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <br>
+            <textarea placeholder="Message" required style="margin-top: 10px;"></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <div style="background-color: green;">Footer</div>
+
+</body>
+
+</html>
